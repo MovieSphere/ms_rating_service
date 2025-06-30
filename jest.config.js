@@ -5,7 +5,5 @@ module.exports = {
   },
   moduleFileExtensions: ['js'],
   testMatch: ['**/tests/**/*.test.js'],
-  setupFilesAfterEnv: ['./tests/setupTests.js'],
-
-  setupFilesAfterEnv: ['<rootDir>/tests/setupTests.js']
+  setupFilesAfterEnv: ['<rootDir>/tests/setupTests.js']  // Solo esta línea
 };
